@@ -17,3 +17,12 @@ run dmenu with "Super+R", type "calamares" and follow prompts
 
 ## Documentation
 TODO
+
+## TODO
+- add anydesk repo
+- add kxstudio repo
+- add nala
+- add ssh (openssh/ssh?)
+- rustdesk
+- check dwm dependancies
+- add dwm complie script, send source to ~/.config/dwm
