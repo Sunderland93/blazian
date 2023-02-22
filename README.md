@@ -4,7 +4,6 @@ A personal Debian 11 (Bullseye) live-build with dwm, as well as my configuration
 Important notes:
 - Project is heavily WIP. This is not functional at all for now.
 - Project is for my personal use. Sometimes I have stupid ways of doing things, which leads to overbloating the system.
--
 - The general purpuse Debian 12 (Bookworm) dwm spin is planned. Development is started as soon as bookworm goes stable. It will be much less bloated than this project: only general hand-crafted dwm desktop environment. Only debian repos will be used. Some QOL improvements will be included. 
 
 ## Features
@@ -14,7 +13,6 @@ Important notes:
 - Almost suckless experience: st as defualt terminal, dwm as window manager, everything in terminal where confident. No display manager, use startx to launch dwm.
 - Apt does not install recommends by default.
 - Calamares installer.
-- 
 
 ## How to install blazian
 
@@ -26,6 +24,13 @@ login: TODO
 password: TODO
 
 run dmenu with "Super+R", type "calamares" and follow prompts
+
+## How to build blazian
+
+git clone https://github.com/blazingtime/blazian.git
+cd blazian
+lb config
+sudo lb build
 
 ## Documentation
 TODO
