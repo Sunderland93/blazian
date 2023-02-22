@@ -2,10 +2,15 @@ calamares
 calamares-extensions
 calamares-settings-debian
 
+task-ssh-server
+
 xorg
 mesa-utils
 zram-tools
 apt-mirror
+nala-legacy
+
+anydesk
 
 build-essential 
 libx11-dev 
@@ -20,6 +25,9 @@ btrfs-progs
 qbittorrent
 transmission
 
+apt-transport-https 
+gpgv 
+wget
 cadence
 carla
 carla-bridge-linux32:i386
