@@ -1,6 +1,8 @@
 # blazian
 A personal Debian live-build with dwm, as well as my scripts and hooks.
 
+Project is heavily WIP. This is not functional at all for now.
+
 ## Features
 TODO
 
@@ -26,3 +28,5 @@ TODO
 - rustdesk
 - check dwm dependancies
 - add dwm complie script, send source to ~/.config/dwm
+- add alacritty
+- add upscayl
