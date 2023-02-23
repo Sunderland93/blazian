@@ -7,7 +7,7 @@ Important notes:
 - The general purpuse Debian 12 (Bookworm) dwm spin is planned. Development is started as soon as bookworm goes stable. It will be much less bloated than this project: only general hand-crafted dwm desktop environment. Only debian repos will be used. Some QOL improvements will be included. 
 
 ## Features
-- Includes additional repositories and software: anydesk, ksxtudio for audio production, nala-legacy, task-ssh-server, upscayl for AI image upscaling.
+- Includes additional repositories and software: anydesk, ksxtudio for audio production, nala-legacy, task-ssh-server.
 - Bunch of software pre-installed, check ''' config/package-lists/pkgs.list.chroot '''
 - Preconfigured, patched dwm. Check https://github.com/blazingtime/dwm. The distribution relies on this fork.
 - Almost suckless experience: st as defualt terminal, dwm as window manager, everything in terminal where confident. No display manager, use startx to launch dwm.
@@ -17,11 +17,15 @@ Important notes:
 ## How to install blazian
 
 wget link to release
+
 dd if=blazian.iso of=/dev/YourDriveHere
+
 boot to flash drive
 
 login: TODO 
 password: TODO
+
+startx 
 
 run dmenu with "Super+R", type "calamares" and follow prompts
 
@@ -32,21 +36,16 @@ cd blazian
 lb config
 sudo lb build
 
-## Documentation
-TODO
-
 ## TODO
 - add anydesk repo - done? test
 - add kxstudio repo - done, test
 - add nala - done, test
-- add task-ssh-server - done
-- rustdesk
 - check dwm dependancies
 - add dwm complie script, send source to ~/.config/dwm
 - add st
-- add upscayl - done
 - add custom dotfiles
-- add ~/bin folder and add to $PATH for custom scripts 
+- add ~/bin folder and add to $PATH for custom scripts - included in dotfiles 
 - add sysvinit branch, test usability
 - add theming: gtk2-4, qt4-6
 - actually configure st
+- add system configuration to /etc
