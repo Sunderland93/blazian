@@ -32,8 +32,11 @@ run dmenu with "Super+R", type "calamares" and follow prompts
 ## How to build blazian
 
 git clone https://github.com/blazingtime/blazian.git
+
 cd blazian
+
 lb config
+
 sudo lb build
 
 ## TODO
@@ -49,3 +52,4 @@ sudo lb build
 - add theming: gtk2-4, qt4-6
 - actually configure st
 - add system configuration to /etc
+- add fonts: flexi IBM false
