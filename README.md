@@ -30,6 +30,8 @@ A: Version numbering for isos: {debian-release}.{blazian-release}.{feature-updat
 Q: Who is it for?
 A: For project developer primarily. You are not supposed to use it (yet). You're still welcome to try it out.
 
+## Issues in development
+- It does not build since third-party repos reqire ascii-armored keys. I'm having trouble to generate them from binary gpg keys. 
 
 ## How to install blazian
 
