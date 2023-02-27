@@ -43,9 +43,9 @@ sudo lb build
 - add anydesk repo - done? test
 - add kxstudio repo - done, test
 - add nala - done, test
-- check dwm dependancies
+- check dwm dependancies - done, test
 - add dwm complie script, send source to ~/.config/dwm
-- add st
+- add st - done, test
 - add custom dotfiles
 - add ~/bin folder and add to $PATH for custom scripts - included in dotfiles 
 - add sysvinit branch, test usability
@@ -53,3 +53,33 @@ sudo lb build
 - actually configure st
 - add system configuration to /etc
 - add fonts: flexi IBM false
+- add wallpaper
+- maybe add dwm-flexipatch?
+- configure apt
+- edit config/includes.chroot/etc/skel/.gtkrc-2.0
+- add lxappearence, arandr, picom
+- remove screen tearing, enable vsync
+- add bleachbit, disk analyser
+- add calcurse
+- add flacon
+- add flameshot, configure
+- add galculator (or terminal calculator?)
+- add KVM
+- add laptop support
+- add lutris, manguhud, goverlay
+- add mpv
+- add neofetch
+- add pcmanfm, add automount flash
+- replase qbittorrent with transmission, or even better with cli-daemon
+- add pdf viewer+editor
+- add qt5ct, lxappearance
+- add qtile and openbox as an option
+- add remmina + rdp
+- add scanner app
+- preconfigured whonix VM?
+- add xarchiver
+- add pacstall installation hook
+- ensure easy to setup wifi
+- bluetooth support
+- add kdenlive
+- add krita

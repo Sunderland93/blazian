@@ -1,0 +1,5 @@
+#!/bin/sh
+
+git clone https://github.com/blazingtime/dwm.git
+cd dwm
+make clean install
