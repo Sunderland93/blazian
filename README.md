@@ -6,6 +6,15 @@ Important notes:
 - Project is for my personal use. Sometimes I have stupid ways of doing things, which leads to overbloating the system.
 - The general purpuse Debian 12 (Bookworm) dwm spin is planned. Development is started as soon as bookworm goes stable. It will be much less bloated than this project: only general hand-crafted dwm desktop environment. Only debian repos will be used. Some QOL improvements will be included. 
 
+## Current state
+- Live-build buildable? No.
+- Live system bootable? No.
+- System installable? No.
+- System usable? No.
+- System configured? No.
+- Features tested? No. 
+- System themed? No.
+
 ## Features
 - Includes additional repositories and software: anydesk, ksxtudio for audio production, nala-legacy, task-ssh-server.
 - Bunch of software pre-installed, check ''' config/package-lists/pkgs.list.chroot '''
@@ -13,6 +22,14 @@ Important notes:
 - Almost suckless experience: st as defualt terminal, dwm as window manager, everything in terminal where confident. No display manager, use startx to launch dwm.
 - Apt does not install recommends by default.
 - Calamares installer.
+
+## FAQ (nobody asked yet lol)
+Q: How versions are numbered?
+A: Version numbering for isos: {debian-release}.{blazian-release}.{feature-update}.{hotfix}
+
+Q: Who is it for?
+A: For project developer primarily. You are not supposed to use it (yet). You're still welcome to try it out.
+
 
 ## How to install blazian
 
@@ -83,3 +100,4 @@ sudo lb build
 - bluetooth support
 - add kdenlive
 - add krita
+- add custom kernel
